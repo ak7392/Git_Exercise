@@ -1,0 +1,17 @@
+nothing to commit, working tree clean
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git log
+commit 5375c914d390483ad4f4c4db18343ea0fe87fd26 (HEAD -> master)
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 02:20:04 2019 -0700
+
+    Revert "commit_reverse"
+    
+    This reverts commit bd75febde7756719550f9c44973c3bf89ae633cf.
+
+commit bd75febde7756719550f9c44973c3bf89ae633cf
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 02:19:34 2019 -0700
+
+    commit_reverse
+
+
