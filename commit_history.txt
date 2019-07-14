@@ -1,0 +1,42 @@
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git log
+commit 40a09ad5aaa5b921192a3ec78dae0c42af6e952b (HEAD -> master, origin/master)
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:50:18 2019 -0700
+
+    delete file_del.txt
+
+commit c99dbaaeee01d2cccb0d29535a2b076aea00f563
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:48:42 2019 -0700
+
+    delete 1
+
+commit 67e9e586f09257cbb18e39a6104b8d691455b37d
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:45:42 2019 -0700
+
+     commit many changes using commit -am
+
+commit 85ab75870b1cafb36defdbe63c37713b24cc9243
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:42:00 2019 -0700
+
+    test_file
+
+commit 9624fc1b4ad3d7d98af78f9a2c061c39d75c2542
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:33:46 2019 -0700
+
+    new
+
+commit 3380b37672ca8b2b71971859a964c527ba55c1d4
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:32:48 2019 -0700
+
+    adding new file
+
+commit 9d1661d7c1447960b2e673014fa8098880994bbd
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sat Jul 13 23:58:35 2019 -0700
+
+    commit all changes made
