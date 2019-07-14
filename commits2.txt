@@ -1,0 +1,36 @@
+commit 8d0091a080cd63eff694411da5133f261ccec158 (HEAD -> master)
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 01:20:36 2019 -0700
+
+    Staging change reversal
+
+commit f8b2f70ab3d8fb68b349fdddc0d6051c5442addf (origin/master)
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 01:12:11 2019 -0700
+
+    Gitignore file  commit
+
+commit 948310c1a5d7689e91cb3829b6d403af76887f2c
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 01:09:48 2019 -0700
+
+    log file commit
+
+commit 08b6d91f2ac3e0baf7026c37fa0a903b04a88243
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 01:07:13 2019 -0700
+
+    commit
+
+commit 4e46b92d549727cb40a8bb72fc65db8b3849c01f
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:56:21 2019 -0700
+
+    commit history file
+
+commit 40a09ad5aaa5b921192a3ec78dae0c42af6e952b
+Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+Date:   Sun Jul 14 00:50:18 2019 -0700
+
+    delete file_del.txt
+
