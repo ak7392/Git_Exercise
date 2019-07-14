@@ -1,0 +1,42 @@
+Abhinavs-Air:Git_Exercise abhinavkannojia$ vi log.gitignore
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git add .
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git commit -am "new"
+[master 389063b] new
+ 1 file changed, 1 insertion(+)
+ create mode 100644 log.gitignore
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git push -u origin master
+Enter passphrase for key '/Users/abhinavkannojia/.ssh/id_rsa': 
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 275 bytes | 275.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:ak7392/Git_Exercise.git
+   30393a2..389063b  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git rm --cached log_file.txt
+rm 'log_file.txt'
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git add .
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git commit -am "ignore"
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git push -u origin master
+Enter passphrase for key '/Users/abhinavkannojia/.ssh/id_rsa': 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+Everything up-to-date
+Abhinavs-Air:Git_Exercise abhinavkannojia$ vi log_file.txt
+Abhinavs-Air:Git_Exercise abhinavkannojia$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   log_file.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
