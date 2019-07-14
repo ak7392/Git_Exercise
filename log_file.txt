@@ -1,2 +1,2 @@
 new log file
-new changes
+new changes, add another change
