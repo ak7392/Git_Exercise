@@ -1,0 +1,186 @@
+* commit fc962fc4c252bff61ca040189b551ddda1705b4f (HEAD -> master, origin/master)
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 20:45:44 2019 -0700
+| 
+|     rebase master file
+| 
+* commit cb66c4a4dff8b97237300c548735c95b31e18e3e
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 20:33:01 2019 -0700
+| 
+|     rebase master changes
+|   
+*   commit c640739b59adeb32ce6c71c7bf349bc9c178201b
+|\  Merge: e154c31 a9fb8e8
+| | Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| | Date:   Sun Jul 14 19:51:43 2019 -0700
+| | 
+| |     Merge branch 'feature1'
+| | 
+| * commit a9fb8e8033d3328bde4eec4df895d77fc2357952 (origin/feature1, feature1)
+| | Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| | Date:   Sun Jul 14 19:46:49 2019 -0700
+| | 
+| |     feature1 branch changes
+| | 
+* | commit e154c31e6188d530b4db4d4bc47d40691e2d1dbf
+|/  Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+|   Date:   Sun Jul 14 19:51:19 2019 -0700
+|   
+|       master commits
+| 
+* commit 826b7cbccd3a4878408f5d4cc0735aebe49f7ead
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:22:12 2019 -0700
+| 
+|     commit_reverse
+| 
+* commit 5375c914d390483ad4f4c4db18343ea0fe87fd26
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:20:04 2019 -0700
+| 
+|     Revert "commit_reverse"
+|     
+|     This reverts commit bd75febde7756719550f9c44973c3bf89ae633cf.
+| 
+* commit bd75febde7756719550f9c44973c3bf89ae633cf
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:19:34 2019 -0700
+| 
+|     commit_reverse
+| 
+* commit 6374c712cbfbf7e94b3d101a1325a7180e16c123
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:11:44 2019 -0700
+| 
+|     ignore_case
+| 
+* commit 389063bf56f54d0aeaaadf4a4c0cdba152a36a6c
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:08:31 2019 -0700
+| 
+|     new
+| 
+* commit 30393a27cb4d875fc3b8aa0cad7b0d3a20770505
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:07:23 2019 -0700
+| 
+|     new
+| 
+* commit 586bcd8cab4422064192b8a75f4a4e84457a8c71
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:03:56 2019 -0700
+| 
+|     new changes
+| 
+* commit daf294354a9c54b5460a00311aa4790ac6d9dda8
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:01:53 2019 -0700
+| 
+|      new commit
+| 
+* commit cbf997a992576cf06c5c6c8cb702e6e5fa60326b
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:56:56 2019 -0700
+| 
+|     new git ignore
+| 
+* commit 33b8035827d6f6e29330a1b83f5da603ea18adc7
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:54:21 2019 -0700
+| 
+|     Change reversal
+| 
+* commit 741e932435cd6bac649823b4741dc466d2affc50
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:51:02 2019 -0700
+| 
+|     recent change
+| 
+* commit 088aaf413455f575bc45229afd11272c79d943fc
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:45:43 2019 -0700
+| 
+|     new log File
+| 
+* commit f7fbd3b4ca2110a3015f183739c7b4b571006b41
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:33:08 2019 -0700
+| 
+|     new rm cached commit
+| 
+* commit f359d8d111faf66f79184e0eb88cb8e5e78c0409
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:21:33 2019 -0700
+| 
+|     new commit file
+| 
+* commit 8d0091a080cd63eff694411da5133f261ccec158
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:20:36 2019 -0700
+| 
+|     Staging change reversal
+| 
+* commit f8b2f70ab3d8fb68b349fdddc0d6051c5442addf
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:12:11 2019 -0700
+| 
+|     Gitignore file  commit
+| 
+* commit 948310c1a5d7689e91cb3829b6d403af76887f2c
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:09:48 2019 -0700
+| 
+|     log file commit
+| 
+* commit 08b6d91f2ac3e0baf7026c37fa0a903b04a88243
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 01:07:13 2019 -0700
+| 
+|     commit
+| 
+* commit 4e46b92d549727cb40a8bb72fc65db8b3849c01f
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:56:21 2019 -0700
+| 
+|     commit history file
+| 
+* commit 40a09ad5aaa5b921192a3ec78dae0c42af6e952b
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:50:18 2019 -0700
+| 
+|     delete file_del.txt
+| 
+* commit c99dbaaeee01d2cccb0d29535a2b076aea00f563
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:48:42 2019 -0700
+| 
+|     delete 1
+| 
+* commit 67e9e586f09257cbb18e39a6104b8d691455b37d
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:45:42 2019 -0700
+| 
+|      commit many changes using commit -am
+| 
+* commit 85ab75870b1cafb36defdbe63c37713b24cc9243
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:42:00 2019 -0700
+| 
+|     test_file
+| 
+* commit 9624fc1b4ad3d7d98af78f9a2c061c39d75c2542
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:33:46 2019 -0700
+| 
+|     new
+| 
+* commit 3380b37672ca8b2b71971859a964c527ba55c1d4
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 00:32:48 2019 -0700
+| 
+|     adding new file
+| 
+* commit 9d1661d7c1447960b2e673014fa8098880994bbd
+  Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+  Date:   Sat Jul 13 23:58:35 2019 -0700
