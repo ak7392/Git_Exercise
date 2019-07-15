@@ -1,0 +1,36 @@
+* commit cb66c4a4dff8b97237300c548735c95b31e18e3e (HEAD -> master, origin/master)
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 20:33:01 2019 -0700
+| 
+|     rebase master changes
+|   
+*   commit c640739b59adeb32ce6c71c7bf349bc9c178201b
+|\  Merge: e154c31 a9fb8e8
+| | Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| | Date:   Sun Jul 14 19:51:43 2019 -0700
+| | 
+| |     Merge branch 'feature1'
+| | 
+| * commit a9fb8e8033d3328bde4eec4df895d77fc2357952 (origin/feature1, feature1)
+| | Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| | Date:   Sun Jul 14 19:46:49 2019 -0700
+| | 
+| |     feature1 branch changes
+| | 
+* | commit e154c31e6188d530b4db4d4bc47d40691e2d1dbf
+|/  Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+|   Date:   Sun Jul 14 19:51:19 2019 -0700
+|   
+|       master commits
+| 
+* commit 826b7cbccd3a4878408f5d4cc0735aebe49f7ead
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:22:12 2019 -0700
+| 
+|     commit_reverse
+| 
+* commit 5375c914d390483ad4f4c4db18343ea0fe87fd26
+| Author: Abhinav Kannojia <abhinav.kannojia1@gmail.com>
+| Date:   Sun Jul 14 02:20:04 2019 -0700
+| 
+
