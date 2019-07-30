@@ -1,0 +1,90 @@
+1.	git init
+2.	vim test.txt (make changes ) exit with !wq
+3.	git commit -m “test file with first commit”
+4.	repeat steps using vim new file with new changes
+git diff 
+       “-“ sign per deletion in original file 
+      “+” sign for addition in new on updated file. 
+      For ignoring files
+       git ignore “test.txt”
+       or we can add a pattern for ignoring files with .log
+       git ignore “*.html”
+      or creating .gitignore file within that folder with similar regex ^[0-9]*.log
+5.	When git add . (for all changes) or “filename” command is not used. Changes are not added to staging yet. 
+To revert all unstaged changes  - “git checkout -- .”
+       For specific change “git – checkout -- test.txt”
+6.	git reset HEAD test.txt
+7.	“git reset – hard 2bae3f” (commit-id) to permanently delete all staged changes 
+“git reset – soft 2bae3f” or HEAD^ for current change 
+“git reset ‘HEAD@{n}’ n = 1,2,3… undo reset for past number of commits.
+8.	git status before and after changes 
+red if unstaged 
+green all staged changes 
+after all commits – work tree becomes clean.
+9.	git log  ( has many options) 
+git log –oneline (shows all commits in one line)
+git log --graph –oneline ( Proper graphical view of all braches and merges or rebases etc)
+10	 git show commit-id .
+11.	git checkout master 
+git checkout -b feature1 
+git checkout -b feature2
+git checkout -d feature2 (delete feature2 branch)
+12.	git checkout feature1. 
+create test1.txt file change three lines. Commit . 
+now again try to modify this file and commit changes. 
+13.	git checkout master modify and commit changes in same lines or overlapping lines. 
+14.	git merge feature1 
+CONFLICT : error
+Open conflict Mile
+HEAD : 
+Master changes
+===
+Conflicting changes from feature1
+>>>
+Do Manually keep or shift changes/ keep changes/ remove them all manually for instance one scenario given below:
+HEAD : 
+Master changes
+Conflicting changes from feature1
+===
+>>>
+:wq! Save the changes.
+
+            git add .
+           git commit -m “ Resolved conflicts manually”
+           “Merge successful”
+     
+15.	git checkout -b feature2.. do commits or changes in some file2.txt
+similarly create conflicts between master and feature2. 
+Changes and commits in feature2. Done 
+git checkout master
+16 . Changes and commits in master Done across same lines in same file as in feature2 branch.
+17 . git checkout feature2
+     git rebase master
+     Conflict arises: while rebasing   
+     Do manual changes in conflict file ..for instance 
+HEAD : 
+Master changes
+Conflicting changes from feature1
+===
+>>>
+:wq! Save the changes.
+            
+           Add changes.
+           Commit Changes. 
+           “rebase successful”
+        
+18 . When we were rebase master to feature1 . Rebase plays all the changes of master on the tail of feature2 branch in a linear fashion and all existing commits on feature branch are changed with their commit ID’s.
+Merge is actually a non-destructive  operation. The existing branches are not changed in any way which implies there is one extra merge commit everytime we need to incorporate upstream changes. Merge commit also leads to lot of confusion  and a clumsy commit history.
+
+19. Using git Stash 
+To push existing work to stash list
+Do git stash  #Command used during execution
+Stash ID is assigned to each work. Most recent stash sits on top.
+We can pull out list by 
+“git stash list”
+To apply particular stash changes 
+“git stash apply stash@{0}”
+
+20. “git push -u origin master” – Push all changes to remote reposity 
+(Make sure to set the remote repository url  beforehand)
+
