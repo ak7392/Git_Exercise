@@ -13,7 +13,7 @@ git diff
 5.	When git add . (for all changes) or “filename” command is not used. Changes are not added to staging yet. 
 To revert all unstaged changes  - “git checkout -- .”
        For specific change “git – checkout -- test.txt”
-6.	git reset HEAD test.txt
+6.	"git reset HEAD test.txt" or simply you can use "git reset HEAD -- ." (to unstage all changes)
 7.	“git reset – hard 2bae3f” (commit-id) to permanently delete all staged changes 
 “git reset – soft 2bae3f” or HEAD^ for current change 
 “git reset ‘HEAD@{n}’ n = 1,2,3… undo reset for past number of commits.
@@ -26,8 +26,8 @@ git log –oneline (shows all commits in one line)
 git log --graph –oneline ( Proper graphical view of all braches and merges or rebases etc)
 10	 git show commit-id .
 11.	git checkout master 
-git checkout -b feature1 
-git checkout -b feature2
+git checkout -b feature1  / git branch feature1 (preferred)
+git checkout -b feature2 / git branch feature2 (preferred)
 git checkout -d feature2 (delete feature2 branch)
 12.	git checkout feature1. 
 create test1.txt file change three lines. Commit . 
@@ -87,4 +87,5 @@ To apply particular stash changes
 
 20. “git push -u origin master” – Push all changes to remote reposity 
 (Make sure to set the remote repository url  beforehand)
+When you do a git pull from a branch, without specifying a source remote or branch, git looks at the branch.<name>.merge setting to know where to pull from. git push -u sets this information for the branch you're pushing.
 
