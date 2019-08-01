@@ -10,6 +10,22 @@ git diff
        or we can add a pattern for ignoring files with .log
        git ignore “*.html”
       or creating .gitignore file within that folder with similar regex ^[0-9]*.log
+      create "vim test_new.txt" and remove file using "rm test_new.txt"
+      git add. 
+      git diff #display changes for deleted file
+      git commit #auto-enter to editor and save msg or -m "message"
+  ** For ignoring a commited file
+      vim test3.txt # add and commit this file change
+      In .gitignore file enter test3.txt 
+      git rm --cached filename # to untrack and remove from remote repository 
+      git add .
+      git commit -am "All chaanges saved"
+      
+# Note - When we enter committed files in .gitignore they will visible as modified whenever there is any change in those files. We do not want this because whatever we put files inside .gitignore, those files should not go to GitHub or any other version control system. To resolve this, we need to remove those files from the git cache and then when you see git status those files will not appear as modified.
+ To remove the file from git cache use-
+ git rm --cached filename
+ #
+      
 5.	When git add . (for all changes) or “filename” command is not used. Changes are not added to staging yet. 
 To revert all unstaged changes  - “git checkout -- .”
        For specific change “git – checkout -- test.txt”
@@ -75,6 +91,8 @@ Conflicting changes from feature1
         
 18 . When we were rebase master to feature1 . Rebase plays all the changes of master on the tail of feature2 branch in a linear fashion and all existing commits on feature branch are changed with their commit ID’s.
 Merge is actually a non-destructive  operation. The existing branches are not changed in any way which implies there is one extra merge commit everytime we need to incorporate upstream changes. Merge commit also leads to lot of confusion  and a clumsy commit history.
+In merge operation here due to some upstream changes i.e when master branch is active and undergoing frequent changes, then merging feature1 branch into it will lead to an extraneous commit (Similarly one extra too if fe  and thus may lead to an ugly project history which may worsen in future merges and thus becomes difficult to identify the history. 
+Rebase has an added advantage and help keep the project history in mangeable linear fashion. Also it’s perfectly legal to rebase onto a remote branch instead of master. This can happen when collaborating on the same feature with another developer and you need to incorporate their changes into your repository.
 
 19. Using git Stash 
 To push existing work to stash list
